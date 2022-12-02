@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div id="content">
+    <h3>@ViewBag.Fecha</h3>
+    <h1>Bienvenido al sitio web!</h1>
+    <p>
+        @Html.ActionLink("Ir a Empleados", "Todos", "Empleado")
+    </p>
+</div>
+
+@section SideBar{
+    <h3>BIENVENIDO Y GRACIAS POR USAR EL SISTEMA EMPLEADO!</h3>
+}
